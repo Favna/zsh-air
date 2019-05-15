@@ -1,5 +1,6 @@
 # aliases
 alias air=$AIR_DEV_PATH/tools/aio.sh
+alias aio=$AIR_DEV_PATH/tools/aio.sh
 alias dca=$AIR_DEV_PATH/tools/aio.sh
 
 function listAirCompletions {
