@@ -28,4 +28,5 @@ The easiest way to install this plugin is to use [Oh My Zsh](https://github.com/
 | Alias                | Command                                         |
 |:---------------------|:------------------------------------------------|
 | `air`                | `$AIR_DEV_PATH/tools/aio.sh`                    |
+| `aio`                | `$AIR_DEV_PATH/tools/aio.sh`                    |
 | `dca`                | `$AIR_DEV_PATH/tools/aio.sh`                    |
