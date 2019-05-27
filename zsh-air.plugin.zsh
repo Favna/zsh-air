@@ -22,8 +22,8 @@ function listAirCompletions {
 		tail logstail
 		stop
 		stopall
+		up
 		down
-		downall
 		remove
 		removeall
 		cleanvolumes
@@ -32,17 +32,14 @@ function listAirCompletions {
 		greenplum
 		greenplum start
 		greenplum stop
-		greenplum down
 		greenplum delete
 		airsysteem systeem
 		airsysteem systeem start
 		airsysteem systeem stop
-		airsysteem systeem down
 		airsysteem systeem delete
 		usermanagement
 		usermanagement start
 		usermanagement stop
-		usermanagement down
 		usermanagement delete
 	)
 }
