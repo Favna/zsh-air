@@ -33,14 +33,17 @@ function listAirCompletions {
 		greenplum start
 		greenplum stop
 		greenplum delete
+		greenplum restart
 		airsysteem systeem
 		airsysteem systeem start
 		airsysteem systeem stop
 		airsysteem systeem delete
+		airsysteem systeem restart
 		usermanagement
 		usermanagement start
 		usermanagement stop
 		usermanagement delete
+		usermanagement restart
 	)
 }
 
