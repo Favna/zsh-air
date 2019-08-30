@@ -10,6 +10,8 @@ function listAirCompletions {
 
 		# completions
 		pokemon fetchall
+		yarn yarnall
+		npm npmall
 		build
 		list
 		listall
