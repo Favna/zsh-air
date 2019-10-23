@@ -7,16 +7,21 @@ function listAirCompletions {
 	reply=(
 		# options
 		-h --help
+		-A --app
 
 		# completions
 		pokemon fetchall
 		yarn yarnall
 		npm npmall
+		init
+		startair
 		build
 		list
 		listall
 		start
 		startall
+		recreate
+		recreateall
 		restart
 		restartall
 		logs
