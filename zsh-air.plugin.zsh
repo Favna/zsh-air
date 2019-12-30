@@ -7,7 +7,6 @@ function listAirCompletions {
 	reply=(
 		# options
 		-h --help
-		-A --app
 
 		# completions
 		pokemon fetchall
@@ -16,17 +15,20 @@ function listAirCompletions {
 		init
 		startair
 		build
+		buildall
 		list
 		listall
 		start
 		startall
 		recreate
+		recreaterunning
 		recreateall
 		restart
 		restartall
 		logs
 		logsall
 		tail logstail
+		stat stats
 		stop
 		stopall
 		up
