@@ -12,7 +12,7 @@ The easiest way to install this plugin is to use [Oh My Zsh](https://github.com/
 1. First clone the plugin repository into your custom plugins directory, for example:
 
     ```zsh
-    git clone https://github.com/bas-jan/zsh-air.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-air
+    git clone https://github.com/RWS-NL/zsh-air.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-air
     ```
 
 2. Add the plugin to the list of plugins for Oh My Zsh to load (inside `~/.zshrc`):
