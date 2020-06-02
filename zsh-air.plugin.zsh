@@ -1,8 +1,3 @@
-# aliases
-alias air=$AIR_DEV_PATH/tools/aio.sh
-alias aio=$AIR_DEV_PATH/tools/aio.sh
-alias dca=$AIR_DEV_PATH/tools/aio.sh
-
 function listAirCompletions {
 	reply=(
 		# options
@@ -56,4 +51,23 @@ function listAirCompletions {
 	)
 }
 
-compctl -K listAirCompletions aio.sh
+if ! [[ -z "$DARS_DEV_PATH" ]]
+then
+  # Register aliases
+  alias dars=$DARS_DEV_PATH/tools/darsaio.sh
+  alias zw=$DARS_DEV_PATH/tools/darsaio.sh
+    
+  # Load completions on darsaio.sh
+  compctl -K listAirCompletions darsaio.sh
+fi
+
+if ! [[ -z "$AIR_DEV_PATH" ]]
+  then
+    # register aliases
+    alias air=$AIR_DEV_PATH/tools/aio.sh
+    alias aio=$AIR_DEV_PATH/tools/aio.sh
+    alias dca=$AIR_DEV_PATH/tools/aio.sh
+    
+    # Load completions on aio.sh
+    compctl -K listAirCompletions aio.sh
+fi
