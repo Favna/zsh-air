@@ -55,6 +55,7 @@ if ! [[ -z "$DARS_DEV_PATH" ]]
 then
   # Register aliases
   alias dars=$DARS_DEV_PATH/tools/darsaio.sh
+  alias darsaio=$DARS_DEV_PATH/tools/darsaio.sh
   alias zw=$DARS_DEV_PATH/tools/darsaio.sh
     
   # Load completions on darsaio.sh
