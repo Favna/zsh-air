@@ -48,6 +48,9 @@ function listAirCompletions {
 		usermanagement stop
 		usermanagement delete
 		usermanagement restart
+		unlock
+		createproject
+		mergedependabot
 	)
 }
 
